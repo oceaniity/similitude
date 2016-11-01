@@ -1,0 +1,12 @@
+__pycache__/
+build/
+dist/
+*.egg-info/
+documentation/build/
+.Python
+*.so
+*.py[cod]
+*.$py.class
+*.egg
+pip-log.txt
+instance/
