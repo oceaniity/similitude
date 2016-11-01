@@ -7,7 +7,8 @@ with open('requirements.rst', 'r') as fh_in:
     packages = [package.split('==')[0] for package in packages]
 
 setup(
-    name='similitude',
+    name=conf.project,
+    author=conf.author,
     version=conf.release,
     py_modules=['similitude'],
     install_requires=packages,
