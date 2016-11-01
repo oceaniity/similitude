@@ -26,8 +26,6 @@ tags = '.git/refs/tags'
 cwd = os.path.abspath('.')
 if cwd.endswith('similitude/documentation'):
     tags = '/'.join([Path(cwd).parent.as_posix(), tags])
-else:
-    tags = tags
 releases = sorted([p.name for p in Path(tags).iterdir()])
 
 # -- General configuration ------------------------------------------------
